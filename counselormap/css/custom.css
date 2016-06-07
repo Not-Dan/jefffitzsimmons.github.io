@@ -1,0 +1,29 @@
+/*--- general styles for main content ---*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body, #mainMap {
+    height: 100%;
+}
+
+.info, .international {
+    padding: 10px 10px;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    max-width: 245px;
+}
+
+.info, .international h4, h3 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.counselorImg {
+    width: 230px;
+}

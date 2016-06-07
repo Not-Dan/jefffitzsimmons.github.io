@@ -1,0 +1,19 @@
+/*--- general styles for main content ---*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body, #mainMap {
+    height: 100%;
+}
+
+#marker-list {
+    max-width: 400px;
+}
+
+#mapMarkers {
+    max-width: 250px;
+}
