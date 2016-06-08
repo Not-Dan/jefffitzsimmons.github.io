@@ -32,7 +32,7 @@ $(document).ready(function() {
     };
 
     info.update = function (props) {
-        this._div.innerHTML = '<h4>CSU-P Counselors by State</h4>' + (props ? '<h3><em><strong>' + props.name + '</em></strong></h3><p><strong>Name:</strong> ' + props.counselor + '<br><strong>Email:</strong> ' + props.email + '<br><strong>Phone:</strong> ' + props.phone + '</p><img class=\'counselorImg\' src=' + props.imageUrl + ' alt=\'counselor image\'>': 'Click on a State or Colorado county to see who your counselor is');
+        this._div.innerHTML = '<h4>CSU-Pueblo Counselors by State</h4>' + (props ? '<h3><em><strong>' + props.name + '</em></strong></h3><p><strong>Name:</strong> ' + props.counselor + '<br><strong>Email:</strong> ' + props.email + '<br><strong>Phone:</strong> ' + props.phone + '</p><img class=\'counselorImg\' src=' + props.imageUrl + ' alt=\'counselor image\'>': 'Click on a State or Colorado county to see who your counselor is');
     };
 
     international.onAdd = function (map) {
@@ -43,6 +43,10 @@ $(document).ready(function() {
 
     info.addTo(map);
     international.addTo(map);
+
+
+    // Declaration of global variables for functions below
+    var geojson;
 
 
     // Color states/counties differently if needed (based on property called "section" in statesData)
@@ -82,17 +86,12 @@ $(document).ready(function() {
         if (!L.Browser.ie && !L.Browser.opera) {
             layer.bringToFront();
         }
-
-        //info.update(layer.feature.properties);
     }
-
-    var geojson;
 
 
     // Reset highlight
     function resetHighlight(e) {
         geojson.resetStyle(e.target);
-        //info.update();
     }
 
 
@@ -100,7 +99,7 @@ $(document).ready(function() {
     function zoomToFeature(e) {
         var layer = e.target;
 
-        if ((layer.feature.id).includes("CO")){
+        if (layer.feature.id.indexOf("CO") >= 0) {
             map.fitBounds([[41.02964, -109.06128], [36.99378, -102.04102]]);
         }
         else {
