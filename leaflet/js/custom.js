@@ -28,52 +28,69 @@ $(document).ready(function() {
         layers: [streets, buildings]
     });
 
-    
+
     // Map markers for buildings
     var geojson;
     var markerList = document.getElementById('marker-list');
 
-    // Read the JSON array and add information to variables
     geojson = L.geoJson(buildingData, {
         onEachFeature: function(feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates),
-            image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
-            buildingName = '<h4>' + feature.properties.name + '</h4>',
-            buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
-            infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
-            buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
-                keepInView: true
+                image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
+                buildingName = '<h4>' + feature.properties.name + '</h4>',
+                buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
+                infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
+                buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
+                        keepInView: true
+                    }
+                ).addTo(buildings);
+
+            var item = markerList.appendChild(document.createElement('button'));
+                item.className = "list-group-item";
+                item.innerHTML = feature.properties.name;
+                item.onclick = function() {
+                    map.setView(feature.geometry.coordinates);
+                    buildingMarker.openPopup();
+                    $('html, body').animate({
+                        scrollTop: $('#mainMap')
+                    }, 175);
+                };
             }
-        ).addTo(buildings);
-
-        // Create, style, and populate building links list below the map
-        var item = markerList.appendChild(document.createElement('button'));
-        item.className = "list-group-item";
-        item.innerHTML = feature.properties.name;
-        item.onclick = function() {
-            map.setView(feature.geometry.coordinates);
-            buildingMarker.openPopup();
-            $('html, body').animate({
-                scrollTop: $('#mainMap')
-            }, 175);
-        };
-    }
-}).addTo(map);
+    }).addTo(map);
 
 
 
-// Set up initial layer and marker UI options
-var baseLayers = {
-    "Flat": streets,
-    "Satellite": satelliteStreets
-};
+    // Set up initial layer and marker UI options
+    var baseLayers = {
+        "Flat": streets,
+        "Satellite": satelliteStreets
+    };
 
-var overlayMaps = {
-    "Building Information": buildings
-};
+    var overlayMaps = {
+        "Building Information": buildings
+    };
 
 
-// Add layer and marker UI controls to map
-L.control.layers(baseLayers, overlayMaps).addTo(map);
+    // Add layer and marker UI controls to map
+    L.control.layers(baseLayers, overlayMaps, {
+        collapsed: false
+    }).addTo(map);
+
+
+
+    // Iniitial function set to determine lat and lng of a specific point //
+    //
+    // var popup = L.popup();
+    //
+    // function onMapClick(e) {
+    //     popup
+    //     .setLatLng(e.latlng)
+    //     .setContent("You clicked the map at " + e.latlng.toString())
+    //     .openOn(map);
+    // }
+    //
+    // map.on('click', onMapClick);
+    //
+    // Iniitial function set to determine lat and lng of a specific point //
 
 });

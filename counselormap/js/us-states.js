@@ -1,5 +1,3 @@
-// JSON array of all US States with the exception of Colorado, where all Colorado counties are defined instead
-
 var statesData = {
     "type": "FeatureCollection",
     "features": [{
