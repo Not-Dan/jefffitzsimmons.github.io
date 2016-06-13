@@ -15,16 +15,17 @@ $(document).ready(function() {
         center: [37.8, -96],
         zoom: 4,
         maxZoom: 7,
-        scrollWheelZoom: false,
         fullscreenControl: true,
         layers: [light]
     });
 
 
-    // Show counselor info when state or county is clicked, international student info in second div
+    // Declaration of global variables for functions below
+    var geojson;
     var info = L.control();
     var international = L.control();
 
+    // Show counselor info when state or county is clicked, international student info in second div
     info.onAdd = function (map) {
         this._div = L.DomUtil.create('div', 'info');
         this.update();
@@ -32,7 +33,8 @@ $(document).ready(function() {
     };
 
     info.update = function (props) {
-        this._div.innerHTML = '<h4>CSU-Pueblo Counselors by State</h4>' + (props ? '<h3><em><strong>' + props.name + '</em></strong></h3><p><strong>Name:</strong> ' + props.counselor + '<br><strong>Email:</strong> ' + props.email + '<br><strong>Phone:</strong> ' + props.phone + '</p><img class=\'counselorImg\' src=' + props.imageUrl + ' alt=\'counselor image\'>': 'Click on a State or Colorado county to see who your counselor is');
+        // Change html elements here for styling
+        this._div.innerHTML = '<h4 class=\'text-center\'>CSU-Pueblo Counselors by State</h4>' + (props ? '<h3><em><strong>' + props.name + '</em></strong></h3><div class=\'row\'><div class=\'col-xs-6 col-sm-6 col-md-12 col-lg-12\'><i class="fa fa-user" aria-hidden="true"></i><br> ' + props.counselor + '<br><i class="fa fa-envelope" aria-hidden="true"></i><br> ' + props.email + '<br><i class="fa fa-phone-square" aria-hidden="true"></i><br> ' + props.phone + '</div><div class=\'col-xs-6 col-sm-6 col-md-12 col-lg-12\'><img class=\'counselorImg\' src=' + props.imageUrl + ' alt=\'counselor image\'></div></div>': 'Click on a State or Colorado county to see who your counselor is');
     };
 
     international.onAdd = function (map) {
@@ -43,10 +45,6 @@ $(document).ready(function() {
 
     info.addTo(map);
     international.addTo(map);
-
-
-    // Declaration of global variables for functions below
-    var geojson;
 
 
     // Color states/counties differently if needed (based on property called "section" in statesData)
@@ -95,10 +93,11 @@ $(document).ready(function() {
     }
 
 
-    // Highlight and zoom to state or county if in Colorado
+    // Highlight and zoom to state
     function zoomToFeature(e) {
         var layer = e.target;
 
+        // Check if layer is a Colorado county: if it is, keep the zoom level and bounds on Colorado instead of zooming into the county
         if (layer.feature.id.indexOf("CO") >= 0) {
             map.fitBounds([[41.02964, -109.06128], [36.99378, -102.04102]]);
         }
@@ -113,12 +112,17 @@ $(document).ready(function() {
     // Bring all the functions together
     function onEachFeature(feature, layer) {
         layer.on({
+            // function called when pointer hovers on a state(layer)
             mouseover: highlightFeature,
+            // function called when pointer leaves a state(layer)
             mouseout: resetHighlight,
+            // function called when pointer clicks a state(layer)
             click: zoomToFeature
         });
     }
 
+
+    // Add all the states/counties to the map
     geojson = L.geoJson(statesData, {
         style: style,
         onEachFeature: onEachFeature

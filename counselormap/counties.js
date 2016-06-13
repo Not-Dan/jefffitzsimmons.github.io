@@ -1,3 +1,5 @@
+// All Colorado counties
+
 {
     "type": "Feature",
     "properties": {
