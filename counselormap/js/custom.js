@@ -22,29 +22,16 @@ $(document).ready(function() {
 
     // Declaration of global variables for functions below
     var geojson;
-    var info = L.control();
-    var international = L.control();
 
-    // Show counselor info when state or county is clicked, international student info in second div
-    info.onAdd = function (map) {
-        this._div = L.DomUtil.create('div', 'info');
-        this.update();
-        return this._div;
-    };
 
-    info.update = function (props) {
+    // Show counselor info when state or county is clicked
+    function infoUpdate(props) {
         // Change html elements here for styling
-        this._div.innerHTML = '<h4 class=\'text-center\'>CSU-Pueblo Counselors by State</h4>' + (props ? '<h3><em><strong>' + props.name + '</em></strong></h3><div class=\'row\'><div class=\'col-xs-6 col-sm-6 col-md-12 col-lg-12\'><i class="fa fa-user" aria-hidden="true"></i><br> ' + props.counselor + '<br><i class="fa fa-envelope" aria-hidden="true"></i><br> ' + props.email + '<br><i class="fa fa-phone-square" aria-hidden="true"></i><br> ' + props.phone + '</div><div class=\'col-xs-6 col-sm-6 col-md-12 col-lg-12\'><img class=\'counselorImg\' src=' + props.imageUrl + ' alt=\'counselor image\'></div></div>': 'Click on a State or Colorado county to see who your counselor is');
+        document.getElementById('info').innerHTML = (props ? '<h3><em><strong>' + props.name + '</em></strong></h3><div class=\'row\'><div class=\'col-xs-12 col-sm-12 col-md-6 col-lg-6\'><i class="fa fa-user" aria-hidden="true"></i><br> ' + props.counselor + '<br><i class="fa fa-envelope" aria-hidden="true"></i><br> ' + props.email + '<br><i class="fa fa-phone-square" aria-hidden="true"></i><br> ' + props.phone + '</div><div class=\'col-xs-12 col-sm-12 col-md-6 col-lg-6\'><img class=\'counselorImg\' src=' + props.imageUrl + ' alt=\'counselor image\'></div></div><br><div><button class=\'btn btn-primary center-block\' onclick=\'returnToMap()\'>Return to Map</button></div>': 'Click on a State or Colorado county to see who your counselor is');
+        $('html,body').animate({
+            scrollTop: $("#info").offset().top
+        });
     };
-
-    international.onAdd = function (map) {
-        this._div = L.DomUtil.create('div', 'international');
-        this._div.innerHTML = '<h4><em><strong>International Students:</strong></em></h4><p>Information about international student counselor here...</p>';
-        return this._div;
-    };
-
-    info.addTo(map);
-    international.addTo(map);
 
 
     // Color states/counties differently if needed (based on property called "section" in statesData)
@@ -105,7 +92,7 @@ $(document).ready(function() {
             map.fitBounds(e.target.getBounds());
         }
 
-        info.update(layer.feature.properties);
+        infoUpdate(layer.feature.properties);
     }
 
 
@@ -129,3 +116,11 @@ $(document).ready(function() {
     }).addTo(map);
 
 });
+
+
+// Return to the map using the button in the info div
+function returnToMap() {
+    $('html,body').animate({
+        scrollTop: $("#mainMap").offset().top
+    });
+}

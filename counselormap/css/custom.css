@@ -8,16 +8,14 @@ body {
 
 html, body, #mainMap {
     height: 100%;
+    max-height: 700px;
 }
 
 .info, .international {
     padding: 10px 10px;
-    background: white;
-    background: rgba(255,255,255,0.8);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
-    max-width: 300px;
-    max-height: 600px;
+    max-width: 600px;
 }
 
 .info, .international h4, h3 {
@@ -26,9 +24,11 @@ html, body, #mainMap {
 
 @media (max-width: 768px) {
     .counselorImg {
-        float: right;
         width: 80%;
         height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -36,5 +36,8 @@ html, body, #mainMap {
     .counselorImg {
         width: 100%;
         height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

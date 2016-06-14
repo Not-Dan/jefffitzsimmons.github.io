@@ -28,7 +28,7 @@ $(document).ready(function() {
         layers: [streets, buildings]
     });
 
-    
+
     // Map markers for buildings
     var geojson;
     var markerList = document.getElementById('marker-list');
