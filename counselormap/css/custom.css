@@ -15,29 +15,26 @@ html, body, #mainMap {
     padding: 10px 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
-    max-width: 600px;
+    /*max-width: 600px;*/
 }
 
 .info, .international h4, h3 {
     color: #777;
 }
 
-@media (max-width: 768px) {
-    .counselorImg {
-        width: 80%;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.counselorImg {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@media (min-width: 769px) {
-    .counselorImg {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.counselorText {
+    padding: 10px;
+}
+
+.counselorText p {
+    font-size: 17px;
 }
