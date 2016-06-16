@@ -15,7 +15,6 @@ html, body, #mainMap {
     padding: 10px 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
-    /*max-width: 600px;*/
 }
 
 .info, .international h4, h3 {
@@ -37,4 +36,16 @@ html, body, #mainMap {
 
 .counselorText p {
     font-size: 17px;
+}
+
+@media (max-width: 991px) {
+    .returnBtn {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 992px) {
+    .returnBtn {
+        visibility: hidden;
+    }
 }
