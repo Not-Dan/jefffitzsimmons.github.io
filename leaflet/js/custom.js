@@ -79,16 +79,16 @@ L.control.layers(baseLayers, overlayMaps).addTo(map);
 
 // Initial function set to determine lat and lng of a specific point, use for setting new building markers/polygons //
 //
-// var popup = L.popup();
-//
-// function onMapClick(e) {
-//     popup
-//     .setLatLng(e.latlng)
-//     .setContent("You clicked the map at " + e.latlng.toString())
-//     .openOn(map);
-// }
-//
-// map.on('click', onMapClick);
+ var popup = L.popup();
+
+ function onMapClick(e) {
+     popup
+     .setLatLng(e.latlng)
+     .setContent("You clicked the map at " + e.latlng.toString())
+     .openOn(map);
+ }
+
+ map.on('click', onMapClick);
 //
 // Initial function set to determine lat and lng of a specific point, use for setting new building markers/polygons //
 
