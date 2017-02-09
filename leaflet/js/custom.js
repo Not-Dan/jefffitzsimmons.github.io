@@ -2,7 +2,7 @@
 $(document).ready(function() {
 
     // Mapbox variables
-    var mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw';
+    var mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY3N1cHVlYmxvd2ViZGV2IiwiYSI6ImNpcGp2c3RkbDAxeHJ1Z25qbGlhdmhydXcifQ.yUVMnSrhzyGrHNG4n0Ae0A';
     var mbAttr = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, Imagery &copy; <a href="http://mapbox.com">Mapbox</a>';
 
 
@@ -77,7 +77,7 @@ var overlayMaps = {
 L.control.layers(baseLayers, overlayMaps).addTo(map);
 
 
-// Iniitial function set to determine lat and lng of a specific point, use for setting new building markers/polygons //
+// Initial function set to determine lat and lng of a specific point, use for setting new building markers/polygons //
 //
 // var popup = L.popup();
 //
@@ -90,7 +90,7 @@ L.control.layers(baseLayers, overlayMaps).addTo(map);
 //
 // map.on('click', onMapClick);
 //
-// Iniitial function set to determine lat and lng of a specific point, use for setting new building markers/polygons //
+// Initial function set to determine lat and lng of a specific point, use for setting new building markers/polygons //
 
 
 });
