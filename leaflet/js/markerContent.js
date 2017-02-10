@@ -142,8 +142,8 @@ var buildingData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    38.0985,
-                    -104.57987
+                    38.30985,
+                    -104.579878
                 ]
             },
             "properties": {
