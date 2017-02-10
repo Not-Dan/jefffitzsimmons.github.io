@@ -15,7 +15,7 @@ var buildingData = {
                 "name":"Chemistry Building (CHEM)",
                 "popupContent":"Reserve your spot in classes like Introduction to Forensic Science or Environmental Chemistry and find yourself in the prominent halls of the Chemistry Building. As a student in this building, you will have the awesome opportunity to use modern instrumentation and innovative technology to explore the wonders of the chemical world!",
                 "imageUrl":"img/ChemistryBuilding.png",
-                "linkUrl":"http://csm.csupueblo.edu/Chemistry/Pages/Default.aspx"
+                "linkUrl":"https://www.csupueblo.edu/chemistry/"
             }
         },
         {
