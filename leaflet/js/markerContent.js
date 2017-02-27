@@ -153,6 +153,23 @@ var buildingData = {
                 "imageUrl":"img/templateImage.png",
                 "linkUrl":"https://www.csupueblo.edu/college-of-humanities-and-social-sciences/"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     38.30957,
+                     -104.57803
+                ]
+            },
+            "properties": {
+                "id": "B10",
+                "name":"Occhiato University Center (OUC)",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/auxiliary-services/"
+            }
         }        
         // ,
         // {
