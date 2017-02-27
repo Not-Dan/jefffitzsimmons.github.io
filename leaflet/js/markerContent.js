@@ -170,7 +170,161 @@ var buildingData = {
                 "imageUrl":"img/templateImage.png",
                 "linkUrl":"https://www.csupueblo.edu/auxiliary-services/"
             }
-        }        
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30867,
+                    -104.57563
+                ]
+            },
+            "properties": {
+                "id": "B11",
+                "name":"Student Recreation Center (SRC)",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/student-recreation/index.html"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30862,
+                    -104.57692
+                ]
+            },
+            "properties": {
+                "id": "B12",
+                "name":"Administration Building (ADM)",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/admissions/index.html"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30536,
+                    -104.57931
+                ]
+            },
+            "properties": {
+                "id": "B13",
+                "name":"Buell Communication Center/KTSC-TV (BCC)",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/mass-communications/labs/ktsc-tv.html"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30511,
+                    -104.57946
+                ]
+            },
+            "properties": {
+                "id": "B14",
+                "name":"Visitor Center",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/Visitors/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31107,
+                    -104.58082
+                ]
+            },
+            "properties": {
+                "id": "B15",
+                "name":"University Village at Walking Stick Apts.",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/residence-life-and-housing/index.html"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31078,
+                    -104.57925
+                ]
+            },
+            "properties": {
+                "id": "B16",
+                "name":"Belmont Residence Hall (BHR)",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/residence-life-and-housing/index.html"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31229,
+                    -104.57898
+                ]
+            },
+            "properties": {
+                "id": "B17",
+                "name":"Crestone Hall (CRST)",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/residence-life-and-housing/index.html"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31234,
+                    -104.57975
+                ]
+            },
+            "properties": {
+                "id": "B18",
+                "name":"Culebra Hall (CLBR)",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/residence-life-and-housing/index.html"
+            }
+        }
+        ,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31198,
+                    -104.58054
+                ]
+            },
+            "properties": {
+                "id": "B19",
+                "name":"Greenhorn Hall (GRHN)",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/residence-life-and-housing/index.html"
+            }
+        }
         // ,
         // {
         //     "type": "Feature",
