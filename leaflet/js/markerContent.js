@@ -324,8 +324,59 @@ var buildingData = {
                 "imageUrl":"img/templateImage.png",
                 "linkUrl":"https://www.csupueblo.edu/residence-life-and-housing/index.html"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31163,
+                    -104.57814
+                ]
+            },
+            "properties": {
+                "id": "B20",
+                "name":"University Child Care Center ",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/auxiliary-services/childcare.html"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31244,
+                    -104.57805
+                ]
+            },
+            "properties": {
+                "id": "B21",
+                "name":"Student Recreation Field",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/student-recreation/index.html"
+            }
         }
         // ,
+        // {
+        //     "type": "Feature",
+        //     "geometry": {
+        //         "type": "Point",
+        //         "coordinates": [
+        
+        //         ]
+        //     },
+        //     "properties": {
+        //         "id": "B0",
+        //         "name":"templateName",
+        //         "popupContent":"templateContent",
+        //         "imageUrl":"img/templateImage.png",
+        //         "linkUrl":"templateUrl"
+        //     }
+        // }
+                // ,
         // {
         //     "type": "Feature",
         //     "geometry": {
