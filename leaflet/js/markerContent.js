@@ -149,8 +149,8 @@ var buildingData = {
             "properties": {
                 "id": "B9",
                 "name":"Art/Music Building (AM)",
-                "popupContent":"This is where text will go...",
-                "imageUrl":"img/templateImage.png",
+                "popupContent":"Unearth your artistic and musical talents in the classrooms of the Art and Music Building.  Stop by the Department of Music and pick up a copy of the seasons calendar featuring concerts and performances by CSU-Pueblo Faculty and Students.  The breathtaking Hoag Recital Hall is also home to hundreds of events and festivals each year.  One can also stop by the Department of Art for an update on the shows taking place in the beautiful Fine Arts Gallery where world renowned artists are showcased alongside our own array of fabulously talented students.",
+                "imageUrl":"img/ArtMusicBuilding.png",
                 "linkUrl":"https://www.csupueblo.edu/college-of-humanities-and-social-sciences/"
             }
         },
@@ -166,8 +166,8 @@ var buildingData = {
             "properties": {
                 "id": "B10",
                 "name":"Occhiato University Center (OUC)",
-                "popupContent":"templateContent",
-                "imageUrl":"img/templateImage.png",
+                "popupContent":"The OUC is bursting at the seams with a tremendous array of student services, including the CSU-Pueblo Bookstore, the Career Center, the offices of the student government and other clubs, two dining facilities, and a stunning ballroom for special events. In the OUC, something is exciting is always happening and YOU can be right in the middle of it!",
+                "imageUrl":"img/OUC.png",
                 "linkUrl":"https://www.csupueblo.edu/auxiliary-services/"
             }
         },
@@ -183,8 +183,8 @@ var buildingData = {
             "properties": {
                 "id": "B11",
                 "name":"Student Recreation Center (SRC)",
-                "popupContent":"templateContent",
-                "imageUrl":"img/templateImage.png",
+                "popupContent":"After opening its door in Fall 2008, the new 43,000-square-foot Student Recreation Center gives students access to basketball courts, a state-of-the-art weight room, indoor running track, intramural competitions, classes like yoga, kickboxing, and step aerobics, and Outdoor Pursuits programming and equipment rental. Membership is totally free to CSU-Pueblo students!",
+                "imageUrl":"img/StudentRecreationCenter.png",
                 "linkUrl":"https://www.csupueblo.edu/student-recreation/index.html"
             }
         },
@@ -200,8 +200,8 @@ var buildingData = {
             "properties": {
                 "id": "B12",
                 "name":"Administration Building (ADM)",
-                "popupContent":"templateContent",
-                "imageUrl":"img/templateImage.png",
+                "popupContent":"This is your one-stop shop to take care of any official campus business you may have! Want to check your application status or change your major? Swing by the Office of Admissions and Records. Need to check your financial aid award status? Student Financial Services is happy to help. Locked your keys in your car? The Pueblo County Sheriff’s Office will come to the rescue. These are only a few of the many services housed in the Administration Building!",
+                "imageUrl":"img/AdministrationBuilding.png",
                 "linkUrl":"https://www.csupueblo.edu/admissions/index.html"
             }
         },
@@ -217,8 +217,8 @@ var buildingData = {
             "properties": {
                 "id": "B13",
                 "name":"Buell Communication Center/KTSC-TV (BCC)",
-                "popupContent":"templateContent",
-                "imageUrl":"img/templateImage.png",
+                "popupContent":"A real, working public television station is yet another unique and exciting aspect of the CSU-Pueblo campus. In fact, we are the only campus in Colorado to have an actual PBS station on our campus. Here, mass communications students can get excellent hands-on experience in writing, directing, editing, and producing television programs! The Visitor Center greets prospective students, parents, and first-time campus visitors with event and registration information, maps, and campus tours.",
+                "imageUrl":"img/VisitorCenterandBuellCommunicationsCenter.png",
                 "linkUrl":"https://www.csupueblo.edu/mass-communications/labs/ktsc-tv.html"
             }
         },
@@ -234,8 +234,8 @@ var buildingData = {
             "properties": {
                 "id": "B14",
                 "name":"Visitor Center",
-                "popupContent":"templateContent",
-                "imageUrl":"img/templateImage.png",
+                "popupContent":"A real, working public television station is yet another unique and exciting aspect of the CSU-Pueblo campus. In fact, we are the only campus in Colorado to have an actual PBS station on our campus. Here, mass communications students can get excellent hands-on experience in writing, directing, editing, and producing television programs! The Visitor Center greets prospective students, parents, and first-time campus visitors with event and registration information, maps, and campus tours.",
+                "imageUrl":"img/VisitorCenterandBuellCommunicationsCenter.png",
                 "linkUrl":"https://www.csupueblo.edu/Visitors/"
             }
         },
@@ -251,8 +251,8 @@ var buildingData = {
             "properties": {
                 "id": "B15",
                 "name":"University Village at Walking Stick Apts.",
-                "popupContent":"templateContent",
-                "imageUrl":"img/templateImage.png",
+                "popupContent":"At 1,600 square feet, these large two-story townhome-style units offer a number of amenities for students. Each resident gets his/her own private bedroom and shares the rest of the unit's amenities with their roommates.",
+                "imageUrl":"img/WalkingStickApartments.png",
                 "linkUrl":"https://www.csupueblo.edu/residence-life-and-housing/index.html"
             }
         },
@@ -268,8 +268,8 @@ var buildingData = {
             "properties": {
                 "id": "B16",
                 "name":"Belmont Residence Hall (BHR)",
-                "popupContent":"templateContent",
-                "imageUrl":"img/templateImage.png",
+                "popupContent":"Home for many CSU-Pueblo students is our Belmont Hall. Students enjoy such amenities as a 24-hour computer lab, laundry facilities, a fitness room, and round-the-clock staff and security. Every room is comfortably furnished with free phone service, cable TV service, and internet service. Life is good in the Belmont Hall!",
+                "imageUrl":"img/BelmontResidenceHall.png",
                 "linkUrl":"https://www.csupueblo.edu/residence-life-and-housing/index.html"
             }
         },
@@ -285,8 +285,8 @@ var buildingData = {
             "properties": {
                 "id": "B17",
                 "name":"Crestone Hall (CRST)",
-                "popupContent":"templateContent",
-                "imageUrl":"img/templateImage.png",
+                "popupContent":"Crestone Hall, the first phase of a three-part residential housing complex, opened in Fall of 2009.  Each of the three new buildings in the village will feature flexible room configurations, meeting and lounge areas, ample parking, and great views! The residence hall complex will bear the names of three Southern Colorado mountain peaks - Crestone, Greenhorn, and Culebra because they connect with the unique Colorado environment and experience CSU-Pueblo offers students.",
+                "imageUrl":"img/CrestoneHall.png",
                 "linkUrl":"https://www.csupueblo.edu/residence-life-and-housing/index.html"
             }
         },
@@ -302,8 +302,8 @@ var buildingData = {
             "properties": {
                 "id": "B18",
                 "name":"Culebra Hall (CLBR)",
-                "popupContent":"templateContent",
-                "imageUrl":"img/templateImage.png",
+                "popupContent":"The nearly 80,000 square-feet Culebra Hall has  four floors of student rooms, totaling 235 beds, a commons/lounge area with adjacent small group study rooms, laundry, mailroom and a late-night food venue offering coffee, drinks, soups, snacks, sandwiches, and pizza.",
+                "imageUrl":"img/CulebraHall.png",
                 "linkUrl":"https://www.csupueblo.edu/residence-life-and-housing/index.html"
             }
         }
@@ -320,8 +320,8 @@ var buildingData = {
             "properties": {
                 "id": "B19",
                 "name":"Greenhorn Hall (GRHN)",
-                "popupContent":"templateContent",
-                "imageUrl":"img/templateImage.png",
+                "popupContent":"At more than 85,000 square feet, Greenhorn Hall has four floors of student rooms, totaling 263 beds, with commons/lounge area and adjacent  small group study rooms, laundry, mailroom,  program storage rooms, warming kitchen, fully-equipped technology classroom seating 25; and an eight-station computer “cyber lounge” available to residents.",
+                "imageUrl":"img/GreenhornHall.png",
                 "linkUrl":"https://www.csupueblo.edu/residence-life-and-housing/index.html"
             }
         },
@@ -337,8 +337,8 @@ var buildingData = {
             "properties": {
                 "id": "B20",
                 "name":"University Child Care Center ",
-                "popupContent":"templateContent",
-                "imageUrl":"img/templateImage.png",
+                "popupContent":"Your children will flourish at the distinguished CSU-Pueblo Child Care Center. Nationally accredited by the National Association for the Education of Young Children, the Child Care Center offers reduced fees to students of CSU-Pueblo with children aged 24 months to five years. Your children will love their experience on the campus of Southern Colorado’s flagship institution.",
+                "imageUrl":"img/UniversityChildCareCenter.png",
                 "linkUrl":"https://www.csupueblo.edu/auxiliary-services/childcare.html"
             }
         },
@@ -354,29 +354,114 @@ var buildingData = {
             "properties": {
                 "id": "B21",
                 "name":"Student Recreation Field",
-                "popupContent":"templateContent",
-                "imageUrl":"img/templateImage.png",
+                "popupContent":"Unwind from a long day of studying at the spectacular student recreation field. This 48,000 square foot facility is a wonderful place to throw a football, toss a Frisbee, or kick a soccer ball. In the mood for some competition? Check out the many intramural and club sports that use the field for practice and games.",
+                "imageUrl":"img/StudentRecreationField.png",
                 "linkUrl":"https://www.csupueblo.edu/student-recreation/index.html"
             }
-        }
-        // ,
-        // {
-        //     "type": "Feature",
-        //     "geometry": {
-        //         "type": "Point",
-        //         "coordinates": [
+        },
+        //Heating Plant Needs IMG and description
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31081,
+                    -104.57658
+                ]
+            },
+            "properties": {
+                "id": "B22",
+                "name":"Heating Plant",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/facilities-management/index.html"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31092,
+                    -104.57551
+                ]
+            },
+            "properties": {
+                "id": "B23",
+                "name":"Physical Plant",
+                "popupContent":"This building serves as the nerve center for the Facilities Department offices, including building trades, grounds, and warehouse functions that keep the campus in operation. CSU-Pueblo’s U.S. Post Office Station also is housed here. ",
+                "imageUrl":"img/PhysicalPlant.png",
+                "linkUrl":"https://www.csupueblo.edu/facilities-management/index.html"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30954,
+                    -104.57567
+                ]
+            },
+            "properties": {
+                "id": "B24",
+                "name":"Massari Arena (PE)",
+                "popupContent":"Renovated in 2008, this world-class indoor sports arena features a swimming pool, basketball and racquetball courts, an athletic training room, as well as athletic administrative offices and the CSU-Pueblo Athletic Hall of Honor. Come check out the challenging climbing wall to see if you can reach the top!",
+                "imageUrl":"img/MassariArena.jpg",
+                "linkUrl":"http://www.gothunderwolves.com/athletics/recruits/facilities/massari"
+            }
+        },
+        //Lindberg Garden needs img and description
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30879,
+                    -104.5779
+                ]
+            },
+            "properties": {
+                "id": "B25",
+                "name":"Lindberg Garden ",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.csupueblo.edu/foundation/recognition/naming-opportunities.html"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
         
-        //         ]
-        //     },
-        //     "properties": {
-        //         "id": "B0",
-        //         "name":"templateName",
-        //         "popupContent":"templateContent",
-        //         "imageUrl":"img/templateImage.png",
-        //         "linkUrl":"templateUrl"
-        //     }
-        // }
-                // ,
+                ]
+            },
+            "properties": {
+                "id": "B0",
+                "name":"templateName",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"templateUrl"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+        
+                ]
+            },
+            "properties": {
+                "id": "B0",
+                "name":"templateName",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"templateUrl"
+            }
+        }
+        //,
         // {
         //     "type": "Feature",
         //     "geometry": {
