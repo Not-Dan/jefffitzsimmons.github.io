@@ -27,7 +27,7 @@ $(document).ready(function() {
         minZoom: 16,
         fullscreenControl: true,
         scrollWheelZoom: false,
-        layers: [streets, buildings]
+        layers: [streets, adminBuildings, resideneceBuildings, sportsFields]
     });
 
 //Admin and Academic Buildings
@@ -131,7 +131,9 @@ var baseLayers = {
 };
 
 var overlayMaps = {
-    "Building Information": buildings
+    "Building Information": adminBuildings,
+    "Residence Information": residenceBuildings,
+    "Field Information": sportsFields
 };
 
 
