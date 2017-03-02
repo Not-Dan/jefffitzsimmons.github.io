@@ -15,7 +15,7 @@ $(document).ready(function() {
     var satelliteStreets = L.tileLayer(mbUrl, {id: 'mapbox.streets-satellite', attribution: mbAttr});
     var streets = L.tileLayer(osmUrl, {attribution: osmAttr});
     var adminBuildings =  new L.layerGroup(); // Buildings will be added as markers are added -- Admin Buildings
-    var resideneceBuildings =  new L.layerGroup(); // Buildings will be added as markers are added -- Residence Buildings
+    var residenceBuildings =  new L.layerGroup(); // Buildings will be added as markers are added -- Residence Buildings
     var sportsFields =  new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
 
 
@@ -77,7 +77,7 @@ $(document).ready(function() {
             buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
                 keepInView: true
             }
-        ).addTo(resideneceBuildings);
+        ).addTo(residenceBuildings);
 
         // Create, style, and populate building links list below the map
         var item = resMarkerList.appendChild(document.createElement('button'));

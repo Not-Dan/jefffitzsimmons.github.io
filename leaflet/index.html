@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -28,26 +29,29 @@
     <div id="mainMap"></div>
 
     <div class="container">
-        <h4>Buildings on Campus</h4>
-        <div class="list-group col-sm-6 col-md-6 col-xs-12" id="marker-list"></div>
-    </div>
-    <div class="container">
-        <h4>Residence Buildings on Campus</h4>
-        <div class="list-group col-sm-6 col-md-6 col-xs-12" id="res-marker-list"></div>
-    </div>
-    <div class="container">
-        <h4>Fields on Campus</h4>
-        <div class="list-group col-sm-6 col-md-6 col-xs-12" id="field-marker-list"></div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-xs-12">
+                <h4>Buildings on Campus</h4>
+                <div class="list-group" id="marker-list"></div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-xs-12">
+                <h4>Fields on Campus</h4>
+                <div class="list-group" id="field-marker-list"></div>
+                <h4>Residence Buildings on Campus</h4>
+                <div class="list-group" id="res-marker-list"></div>
+            </div>
+        </div>
     </div>
 
-<!-- Javascript -->
-<script src="js/jquery-1.12.0.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/markerContent.js"></script>
-<script src="js/leaflet.js"></script>
-<script src="js/leaflet-color-markers.js"></script>
-<script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
-<script src="js/custom.js"></script>
+
+    <!-- Javascript -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/markerContent.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/leaflet-color-markers.js"></script>
+    <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
