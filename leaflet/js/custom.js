@@ -49,7 +49,7 @@ $(document).ready(function() {
         ).addTo(adminBuildings);
 
         // Create, style, and populate building links list below the map
-        var item = MarkerList.appendChild(document.createElement('button'));
+        var item = markerList.appendChild(document.createElement('button'));
         item.className = "list-group-item";
         item.innerHTML = feature.properties.name;
         item.onclick = function() {
