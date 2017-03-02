@@ -38,7 +38,7 @@ $(document).ready(function() {
     // Read the JSON array and add information to variables
     geojson = L.geoJson(adminData, {
         onEachFeature: function(feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates),
+            var buildingMarker = L.marker(feature.geometry.coordinates, {icon: greenIcon}),
             image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
             buildingName = '<h4>' + feature.properties.name + '</h4>',
             buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
