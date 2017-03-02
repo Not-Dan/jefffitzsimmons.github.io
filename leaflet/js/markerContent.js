@@ -350,7 +350,327 @@ var fieldData = {
                 "imageUrl": "img/templateImage.png",
                 "linkUrl": "https://www.csupueblo.edu/foundation/recognition/naming-opportunities.html"
             }
+        },
+        //Fountain needs a link and description
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30828,
+                    -104.57807
+                ]
+            },
+            "properties": {
+                "id": "B26",
+                "name":"University Fountain Plaza",
+                "popupContent":"templateContent",
+                "imageUrl":"img/UniversityFountainPlaza.png",
+                "linkUrl":"templateUrl"
+            }
         }
+        ,
+        //needs description
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30714,
+                    -104.57873
+                ]
+            },
+            "properties": {
+                "id": "B27",
+                "name":"McKinney Pavilion",
+                "popupContent":"templateContent",
+                "imageUrl":"img/McKinneyPavilion.png",
+                "linkUrl":"https://www.csupueblo.edu/foundation/recognition/naming-opportunities.html"
+            }
+        }
+        ,
+        //needs description and link
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30668,
+                    -104.58191
+                ]
+            },
+            "properties": {
+                "id": "B28",
+                "name":"Outdoor Classroom",
+                "popupContent":"templateContent",
+                "imageUrl":"img/OutdoorClassroomandRockGarden.png",
+                "linkUrl":"templateUrl"
+            }
+        }
+        ,
+        //needs description and link
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30841,
+                    -104.58132
+                ]
+            },
+            "properties": {
+                "id": "B29",
+                "name":"Hasan Outdoor Amphitheater",
+                "popupContent":"templateContent",
+                "imageUrl":"img/HasanOutdoorAmphitheatre.png",
+                "linkUrl":"templateUrl"
+            }
+        }
+        ,
+        //needs description and link
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31257,
+                    -104.57448
+                ]
+            },
+            "properties": {
+                "id": "B30",
+                "name":"Solar Panel Array",
+                "popupContent":"templateContent",
+                "imageUrl":"img/SolarPanelArray.png",
+                "linkUrl":"templateUrl"
+            }
+        }
+        ,
+        //needs description
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31289,
+                    -104.57272
+                ]
+            },
+            "properties": {
+                "id": "B31",
+                "name":"Rawlings Softball Complex",
+                "popupContent":"templateContent",
+                "imageUrl":"img/RawlingsOutdoorSportsComplex.png",
+                "linkUrl":"http://www.gothunderwolves.com/athletics/recruits/facilities/rawlings"
+            }
+        }
+        ,
+        //needs description
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31093,
+                    -104.57373
+                ]
+            },
+            "properties": {
+                "id": "B32",
+                "name":"Rawlings Field",
+                "popupContent":"templateContent",
+                "imageUrl":"img/RawlingsOutdoorSportsComplex(Quad).png",
+                "linkUrl":"http://www.gothunderwolves.com/athletics/recruits/facilities/rawlings"
+            }
+        }
+        ,
+        //needs pic, description
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31003,
+                    -104.57346
+                ]
+            },
+            "properties": {
+                "id": "B33",
+                "name":"Tennis Courts (TC)",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"http://www.gothunderwolves.com/athletics/recruits/facilities/index"
+            }
+        }
+        ,
+        //needs content
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30907,
+                    -104.57346
+                ]
+            },
+            "properties": {
+                "id": "B34",
+                "name":"Ropes Course (RC)",
+                "popupContent":"templateContent",
+                "imageUrl":"img/RopesCourse.png",
+                "linkUrl":"https://www.csupueblo.edu/student-engagement-and-leadership/contact-us/index.html"
+            }
+        }
+        ,
+        // needs pic, content, and link
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30905,
+                    -104.57409
+                ]
+            },
+            "properties": {
+                "id": "B35",
+                "name":"Weindling Park",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"templateUrl"
+            }
+        }
+        ,
+        //Needs pic and description
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30688,
+                    -104.57362
+                ]
+            },
+            "properties": {
+                "id": "B36",
+                "name":"Art & Lorraine Gonzalez Soccer/Lacrosse Complex",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"http://www.gothunderwolves.com/athletics/recruits/facilities/soccer-lax"
+            }
+        }
+        ,
+        //needs description
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31022,
+                    -104.57047
+                ]
+            },
+            "properties": {
+                "id": "B37",
+                "name":"DeRose Thunderbowl Stadium",
+                "popupContent":"templateContent",
+                "imageUrl":"img/ThunderbowlStadium.png.png",
+                "linkUrl":"http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
+            }
+        }
+        ,
+        //needs description
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30902,
+                    -104.57049
+                ]   
+            },
+            "properties": {
+                "id": "B38",
+                "name":"Fieldhouse (FLDH)",
+                "popupContent":"templateContent",
+                "imageUrl":"img/FieldHouse.png",
+                "linkUrl":"http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
+            }
+        }
+        ,
+        //needs pic and content
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31022,
+                    -104.56969
+                ]
+            },
+            "properties": {
+                "id": "B39",
+                "name":"Suites",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
+            }
+        }
+        ,
+        //needs pic and content
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31024,
+                    -104.57127
+                ]
+            },
+            "properties": {
+                "id": "B40",
+                "name":"Press Box/Presidential Suite",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
+            }
+        }
+        ,
+        //needs pic and content
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30935,
+                    -104.57098
+                ]
+            },
+            "properties": {
+                "id": "B41",
+                "name":"Leomiti Warrior Center (LWC)",
+                "popupContent":"templateContent",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"http://www.gothunderwolves.com/sports/strength/photos/index"
+            }
+        }
+        // ,
+        // {
+        //     "type": "Feature",
+        //     "geometry": {
+        //         "type": "Point",
+        //         "coordinates": [
+
+        //         ]
+        //     },
+        //     "properties": {
+        //         "id": "B0",
+        //         "name":"templateName",
+        //         "popupContent":"templateContent",
+        //         "imageUrl":"img/templateImage.png",
+        //         "linkUrl":"templateUrl"
+        //     }
+        // }
     ]
 };
 
