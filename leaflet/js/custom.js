@@ -30,13 +30,13 @@ $(document).ready(function() {
         layers: [streets, buildings]
     });
 
-
+//Admin and Academic Buildings
     // Map markers for buildings
     var geojson;
     var markerList = document.getElementById('marker-list');
 
     // Read the JSON array and add information to variables
-    geojson = L.geoJson(buildingData, {
+    geojson = L.geoJson(adminData, {
         onEachFeature: function(feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates),
             image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
@@ -49,7 +49,38 @@ $(document).ready(function() {
         ).addTo(adminBuildings);
 
         // Create, style, and populate building links list below the map
-        var item = markerList.appendChild(document.createElement('button'));
+        var item = adminMarkerList.appendChild(document.createElement('button'));
+        item.className = "list-group-item";
+        item.innerHTML = feature.properties.name;
+        item.onclick = function() {
+            map.setView(feature.geometry.coordinates);
+            buildingMarker.openPopup();
+            $('html, body').animate({
+                scrollTop: $('#mainMap')
+            }, 175);
+        };
+    }
+}).addTo(map);
+//Residence Halls
+            // Map markers for buildings
+    var geojsonRes;
+    var resMarkerList = document.getElementById('res-marker-list');
+
+    // Read the JSON array and add information to variables
+    geojsonRes = L.geoJson(resData, {
+        onEachFeature: function(feature, layer) {
+            var buildingMarker = L.marker(feature.geometry.coordinates),
+            image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
+            buildingName = '<h4>' + feature.properties.name + '</h4>',
+            buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
+            infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
+            buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
+                keepInView: true
+            }
+        ).addTo(resideneceBuildings);
+
+        // Create, style, and populate building links list below the map
+        var item = resMarkerList.appendChild(document.createElement('button'));
         item.className = "list-group-item";
         item.innerHTML = feature.properties.name;
         item.onclick = function() {
@@ -62,6 +93,35 @@ $(document).ready(function() {
     }
 }).addTo(map);
 
+//Sports Fields
+            // Map markers for buildings
+    var geojsonField;
+    var fieldMarkerList = document.getElementById('field-marker-list');
+    geojsonField = L.geoJson(fieldData, {
+        onEachFeature: function(feature, layer) {
+            var buildingMarker = L.marker(feature.geometry.coordinates),
+            image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
+            buildingName = '<h4>' + feature.properties.name + '</h4>',
+            buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
+            infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
+            buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
+                keepInView: true
+            }
+        ).addTo(sportsFields);
+
+        // Create, style, and populate building links list below the map
+        var item = fieldMarkerList.appendChild(document.createElement('button'));
+        item.className = "list-group-item";
+        item.innerHTML = feature.properties.name;
+        item.onclick = function() {
+            map.setView(feature.geometry.coordinates);
+            buildingMarker.openPopup();
+            $('html, body').animate({
+                scrollTop: $('#mainMap')
+            }, 175);
+        };
+    }
+}).addTo(map);
 
 
 // Set up initial layer and marker UI options
