@@ -27,7 +27,7 @@ $(document).ready(function() {
         minZoom: 16,
         fullscreenControl: true,
         scrollWheelZoom: false,
-        layers: [streets, adminBuildings, resideneceBuildings, sportsFields]
+        layers: [streets, adminBuildings, residenceBuildings, sportsFields]
     });
 
 //Admin and Academic Buildings
