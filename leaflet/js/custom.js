@@ -17,6 +17,9 @@ $(document).ready(function() {
     var adminBuildings =  new L.layerGroup(); // Buildings will be added as markers are added -- Admin Buildings
     var residenceBuildings =  new L.layerGroup(); // Buildings will be added as markers are added -- Residence Buildings
     var sportsFields =  new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
+    var resturaunts =  new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
+    var hotels =  new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
+    var attractions =  new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
 
 
     // Map initialization
@@ -27,7 +30,7 @@ $(document).ready(function() {
         minZoom: 16,
         fullscreenControl: true,
         scrollWheelZoom: false,
-        layers: [streets, adminBuildings, residenceBuildings, sportsFields]
+        layers: [streets, adminBuildings, residenceBuildings, sportsFields, resturaunts, attractions, hotels]
     });
 
 //Admin and Academic Buildings
@@ -123,6 +126,95 @@ $(document).ready(function() {
     }
 }).addTo(map);
 
+//Resturaunts
+            // Map markers for buildings
+    var geojsonResturaunts;
+    var resturauntMarkerList = document.getElementById('resturaunt-marker-list');
+    geojsonResturaunts = L.geoJson(resturauntData, {
+        onEachFeature: function(feature, layer) {
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: redIcon}),
+            image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
+            buildingName = '<h4>' + feature.properties.name + '</h4>',
+            buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
+            infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
+            buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
+                keepInView: true
+            }
+        ).addTo(resturaunts);
+
+                // Create, style, and populate building links list below the map
+        var item = resturauntMarkerList.appendChild(document.createElement('button'));
+        item.className = "list-group-item";
+        item.innerHTML = feature.properties.name;
+        item.onclick = function() {
+            map.setView(feature.geometry.coordinates);
+            buildingMarker.openPopup();
+            $('html, body').animate({
+                scrollTop: $('#mainMap')
+            }, 175);
+        }
+    }
+}).addTo(map);
+
+//Hotels
+            // Map markers for buildings
+    var geojsonHotel;
+    var hotelMarkerList = document.getElementById('hotel-marker-list');
+    geojsonHotel = L.geoJson(hotelData, {
+        onEachFeature: function(feature, layer) {
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: redIcon}),
+            image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
+            buildingName = '<h4>' + feature.properties.name + '</h4>',
+            buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
+            infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
+            buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
+                keepInView: true
+            }
+        ).addTo(hotels);
+
+                // Create, style, and populate building links list below the map
+        var item = hotelMarkerList.appendChild(document.createElement('button'));
+        item.className = "list-group-item";
+        item.innerHTML = feature.properties.name;
+        item.onclick = function() {
+            map.setView(feature.geometry.coordinates);
+            buildingMarker.openPopup();
+            $('html, body').animate({
+                scrollTop: $('#mainMap')
+            }, 175);
+        }
+    }
+}).addTo(map);
+
+//Resturaunts
+            // Map markers for buildings
+    var geojsonAttraction;
+    var attractionMarkerList = document.getElementById('attraction-marker-list');
+    geojsonAttraction = L.geoJson(attractionData, {
+        onEachFeature: function(feature, layer) {
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: redIcon}),
+            image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
+            buildingName = '<h4>' + feature.properties.name + '</h4>',
+            buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
+            infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
+            buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
+                keepInView: true
+            }
+        ).addTo(attractions);
+
+                // Create, style, and populate building links list below the map
+        var item = attractionMarkerList.appendChild(document.createElement('button'));
+        item.className = "list-group-item";
+        item.innerHTML = feature.properties.name;
+        item.onclick = function() {
+            map.setView(feature.geometry.coordinates);
+            buildingMarker.openPopup();
+            $('html, body').animate({
+                scrollTop: $('#mainMap')
+            }, 175);
+        }
+    }
+}).addTo(map);
 
 // Set up initial layer and marker UI options
 var baseLayers = {
@@ -131,9 +223,12 @@ var baseLayers = {
 };
 
 var overlayMaps = {
-    "Building Information": adminBuildings,
-    "Residence Information": residenceBuildings,
-    "Field Information": sportsFields
+    "Academic & Administrative Buildings": adminBuildings,
+    "Residence Halls": residenceBuildings,
+    "Fields & Recreation": sportsFields,
+    "Hotels & Transportation": hotels,
+    "Resturaunts": resturaunts,
+    "Pueblo Attractions": attractions
 };
 
 

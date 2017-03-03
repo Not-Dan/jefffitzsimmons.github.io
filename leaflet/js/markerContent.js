@@ -782,3 +782,89 @@ var resData = {
         // }
     ]
 };
+
+var hotelData = {
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.28348,
+                    -104.49554
+                ]
+            },
+            "properties": {
+                "id": "C1",
+                "name":"Pueblo Airport (Hertz)",
+                "popupContent":"Car Rental",
+                "imageUrl":"img/templateImage.png",
+                "linkUrl":"https://www.hertz247.co.uk/bq/en-gb/Home"
+            }
+        }
+        //,
+        // {
+        //     "type": "Feature",
+        //     "geometry": {
+        //         "type": "Point",
+        //         "coordinates": [
+
+        //         ]
+        //     },
+        //     "properties": {
+        //         "id": "C0",
+        //         "name":"templateName",
+        //         "popupContent":"templateContent",
+        //         "imageUrl":"img/templateImage.png",
+        //         "linkUrl":"templateUrl"
+        //     }
+        // }
+            ]
+};
+
+var resturauntData = {
+    "type": "FeatureCollection",
+    "features": [
+        //,
+        // {
+        //     "type": "Feature",
+        //     "geometry": {
+        //         "type": "Point",
+        //         "coordinates": [
+
+        //         ]
+        //     },
+        //     "properties": {
+        //         "id": "C0",
+        //         "name":"templateName",
+        //         "popupContent":"templateContent",
+        //         "imageUrl":"img/templateImage.png",
+        //         "linkUrl":"templateUrl"
+        //     }
+        // }
+            ]
+};
+
+var attrationData = {
+    "type": "FeatureCollection",
+    "features": [
+        //,
+        // {
+        //     "type": "Feature",
+        //     "geometry": {
+        //         "type": "Point",
+        //         "coordinates": [
+
+        //         ]
+        //     },
+        //     "properties": {
+        //         "id": "C0",
+        //         "name":"templateName",
+        //         "popupContent":"templateContent",
+        //         "imageUrl":"img/templateImage.png",
+        //         "linkUrl":"templateUrl"
+        //     }
+        // }
+            ]
+};
