@@ -1226,7 +1226,7 @@ var resturauntData = {
     ]
 };
 
-var attrationData = {
+var attractionData = {
     "type": "FeatureCollection",
     "features": [
         {
