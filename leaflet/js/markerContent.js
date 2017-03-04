@@ -31,7 +31,7 @@ var adminData = {
             "properties": {
                 "id": "B23",
                 "name": "Physical Plant",
-                "popupContent": "This building serves as the nerve center for the Facilities Department offices, including building trades, grounds, and warehouse functions that keep the campus in operation. CSU-Pueblo’s U.S. Post Office Station also is housed here. ",
+                "popupContent": "This building serves as the nerve center for the Facilities Department offices, including building trades, grounds, and warehouse functions that keep the campus in operation. CSU-Pueblo’s U.S. Post Office Station also is housed here.",
                 "imageUrl": "img/PhysicalPlant.png",
                 "linkUrl": "https://www.csupueblo.edu/facilities-management/index.html"
             }
@@ -345,7 +345,7 @@ var fieldData = {
             },
             "properties": {
                 "id": "B25",
-                "name": "Lindberg Garden ",
+                "name": "Lindberg Garden",
                 "popupContent": "templateContent",
                 "imageUrl": "img/templateImage.png",
                 "linkUrl": "https://www.csupueblo.edu/foundation/recognition/naming-opportunities.html"
@@ -656,19 +656,19 @@ var fieldData = {
         }
         // ,
         // {
-        //     "type": "Feature",
-        //     "geometry": {
-        //         "type": "Point",
-        //         "coordinates": [
+        //    "type":"Feature",
+        //    "geometry": {
+        //        "type":"Point",
+        //        "coordinates": [
 
         //         ]
         //     },
-        //     "properties": {
-        //         "id": "B0",
-        //         "name":"templateName",
-        //         "popupContent":"templateContent",
-        //         "imageUrl":"img/templateImage.png",
-        //         "linkUrl":"templateUrl"
+        //    "properties": {
+        //        "id":"B0",
+        //        "name":"templateName",
+        //        "popupContent":"templateContent",
+        //        "imageUrl":"img/templateImage.png",
+        //        "linkUrl":"templateUrl"
         //     }
         // }
     ]
@@ -765,19 +765,19 @@ var resData = {
         }
         //,
         // {
-        //     "type": "Feature",
-        //     "geometry": {
-        //         "type": "Point",
-        //         "coordinates": [
+        //    "type":"Feature",
+        //    "geometry": {
+        //        "type":"Point",
+        //        "coordinates": [
 
         //         ]
         //     },
-        //     "properties": {
-        //         "id": "B0",
-        //         "name":"templateName",
-        //         "popupContent":"templateContent",
-        //         "imageUrl":"img/templateImage.png",
-        //         "linkUrl":"templateUrl"
+        //    "properties": {
+        //        "id":"B0",
+        //        "name":"templateName",
+        //        "popupContent":"templateContent",
+        //        "imageUrl":"img/templateImage.png",
+        //        "linkUrl":"templateUrl"
         //     }
         // }
     ]
@@ -788,219 +788,219 @@ var hotelData = {
     "features": [
 
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.28348,
                     -104.49554
                 ]
             },
-            "properties ": {
-                "id ": "C1",
-                "name ": "Pueblo Airport (Hertz)",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.hertz247.co.uk/bq/en-gb/Home"
+            "properties": {
+                "id": "C1",
+                "name": "Pueblo Airport (Hertz)",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.hertz247.co.uk/bq/en-gb/Home"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.28343,
                     -104.49552
                 ]
             },
-            "properties ": {
-                "id ": "C2",
-                "name ": "Avis Rent A Car",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.avis.com/en/home"
+            "properties": {
+                "id": "C2",
+                "name": "Avis Rent A Car",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.avis.com/en/home"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.2683,
                     -104.60346
                 ]
             },
-            "properties ": {
-                "id ": "C3",
-                "name ": "Enterprise Rent-A-Car",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.enterprise.com/en/car-rental/locations/us/co.html?gclid=CjwKEAiA3NTFBRDKheuO6IG43VQSJAA74F77El27NhLmjtH_phJqzUTfMdxW-rQo9zzB7VK0ME87AhoC5FLw_wcB&cm_mmc=Google-_-Brand-_-E_G_US_SE_Geo_B_BMM_NTL_EN_US-_-enterprise_co&s_kwcid=AL!4824!3!169909537661!b!!g!!%2Benterprise%20%2Bco&ef_id=WJESMAAAAM26Ahks:20170228223244:s"
+            "properties": {
+                "id": "C3",
+                "name": "Enterprise Rent-A-Car",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.enterprise.com/en/car-rental/locations/us/co.html?gclid=CjwKEAiA3NTFBRDKheuO6IG43VQSJAA74F77El27NhLmjtH_phJqzUTfMdxW-rQo9zzB7VK0ME87AhoC5FLw_wcB&cm_mmc=Google-_-Brand-_-E_G_US_SE_Geo_B_BMM_NTL_EN_US-_-enterprise_co&s_kwcid=AL!4824!3!169909537661!b!!g!!%2Benterprise%20%2Bco&ef_id=WJESMAAAAM26Ahks:20170228223244:s"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.2648,
                     -104.61536
                 ]
             },
-            "properties ": {
-                "id ": "C4",
-                "name ": "Shuttle Service of Southern Colorado",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www1.shuttleserviceofsoutherncolorado.com/?kw="
+            "properties": {
+                "id": "C4",
+                "name": "Shuttle Service of Southern Colorado",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www1.shuttleserviceofsoutherncolorado.com/?kw="
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.32103,
                     -104.61728
                 ]
             },
-            "properties ": {
-                "id ": "C23",
-                "name ": "Ramada Inn",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.wyndhamhotels.com/ramada/pueblo-colorado/ramada-pueblo/overview?CID=LC:RA:20160927:RIO:Local:SM-ramotn"
+            "properties": {
+                "id": "C23",
+                "name": "Ramada Inn",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.wyndhamhotels.com/ramada/pueblo-colorado/ramada-pueblo/overview?CID=LC:RA:20160927:RIO:Local:SM-ramotn"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.32384,
                     -104.61707
                 ]
             },
-            "properties ": {
-                "id ": "C24",
-                "name ": "La Quinta Inn and Suites",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.laquintapueblo.com/?cid=local_google_972"
+            "properties": {
+                "id": "C24",
+                "name": "La Quinta Inn and Suites",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.laquintapueblo.com/?cid=local_google_972"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.26665,
                     -104.60781
                 ]
             },
-            "properties ": {
-                "id ": "C25",
-                "name ": "Marriott Hotel",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.marriott.com/hotels/travel/pubcy-courtyard-pueblo-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
+            "properties": {
+                "id": "C25",
+                "name": "Marriott Hotel",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.marriott.com/hotels/travel/pubcy-courtyard-pueblo-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.31712,
                     -104.61144
                 ]
             },
-            "properties ": {
-                "id ": "C26",
-                "name ": "Holiday Inn Express & Suites",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.ihg.com/holidayinnexpress/hotels/us/en/pueblo/pbchi/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-USA-_-PBCHI"
+            "properties": {
+                "id": "C26",
+                "name": "Holiday Inn Express & Suites",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/pueblo/pbchi/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-USA-_-PBCHI"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.30971,
                     -104.61662
                 ]
             },
-            "properties ": {
-                "id ": "C27",
-                "name ": "Clarion Inn",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.choicehotels.com/colorado/pueblo/clarion-hotels/co233?source=gyxt"
+            "properties": {
+                "id": "C27",
+                "name": "Clarion Inn",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.choicehotels.com/colorado/pueblo/clarion-hotels/co233?source=gyxt"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.32105,
                     -104.61917
                 ]
             },
-            "properties ": {
-                "id ": "C28",
-                "name ": "Wingate by Windham",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.wyndhamhotels.com/wingate/pueblo-colorado/wingate-by-wyndham-pueblo/overview?CID=LC:WG:20160927:RIO:Local:SM-wgmotn"
+            "properties": {
+                "id": "C28",
+                "name": "Wingate by Windham",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.wyndhamhotels.com/wingate/pueblo-colorado/wingate-by-wyndham-pueblo/overview?CID=LC:WG:20160927:RIO:Local:SM-wgmotn"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.26653,
                     -104.6061
                 ]
             },
-            "properties ": {
-                "id ": "C29",
-                "name ": "SpringHill Suites by Marriott",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.marriott.com/hotels/travel/pubsh-springhill-suites-pueblo-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
+            "properties": {
+                "id": "C29",
+                "name": "SpringHill Suites by Marriott",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.marriott.com/hotels/travel/pubsh-springhill-suites-pueblo-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
             }
         }
 
 
         // ,
         // {
-        //     "type": "Feature",
-        //     "geometry": {
-        //         "type": "Point",
-        //         "coordinates": [
+        //    "type":"Feature",
+        //    "geometry": {
+        //        "type":"Point",
+        //        "coordinates": [
 
         //         ]
         //     },
-        //     "properties": {
-        //         "id": "C0",
-        //         "name":"templateName",
-        //         "popupContent":"templateContent",
-        //         "imageUrl":"img/templateImage.png",
-        //         "linkUrl":"templateUrl"
+        //    "properties": {
+        //        "id":"C0",
+        //        "name":"templateName",
+        //        "popupContent":"templateContent",
+        //        "imageUrl":"img/templateImage.png",
+        //        "linkUrl":"templateUrl"
         //     }
         // }
     ]
@@ -1010,217 +1010,217 @@ var resturauntData = {
     "type": "FeatureCollection",
     "features": [
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.30681,
                     -104.59898
                 ]
             },
-            "properties ": {
-                "id ": "C33",
-                "name ": "Andy Mac's Sports Grill",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.facebook.com/andymacspueblo/"
+            "properties": {
+                "id": "C33",
+                "name": "Andy Mac's Sports Grill",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.facebook.com/andymacspueblo/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.26546,
                     -104.61196
                 ]
             },
-            "properties ": {
-                "id ": "C34",
-                "name ": "Angelo's Pizza Parlor",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.angelospizzapie.com/"
+            "properties": {
+                "id": "C34",
+                "name": "Angelo's Pizza Parlor",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.angelospizzapie.com/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.32312,
                     -104.70401
                 ]
             },
-            "properties ": {
-                "id ": "C35",
-                "name ": "Do Drop Inn Pizza",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.dodropinnpueblo.com/"
+            "properties": {
+                "id": "C35",
+                "name": "Do Drop Inn Pizza",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.dodropinnpueblo.com/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.26402,
                     -104.61444
                 ]
             },
-            "properties ": {
-                "id ": "C36",
-                "name ": "Gold Dust Saloon",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://golddustsaloon.net/"
+            "properties": {
+                "id": "C36",
+                "name": "Gold Dust Saloon",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://golddustsaloon.net/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.3103,
                     -104.63166
                 ]
             },
-            "properties ": {
-                "id ": "C37",
-                "name ": "Pass Key",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.passkeyrestaurant.com/"
+            "properties": {
+                "id": "C37",
+                "name": "Pass Key",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.passkeyrestaurant.com/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.27384,
                     -104.60684
                 ]
             },
-            "properties ": {
-                "id ": "C38",
-                "name ": "MoMo Japanese Restaurant",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.facebook.com/MomoJapaneseRestaurant/"
+            "properties": {
+                "id": "C38",
+                "name": "MoMo Japanese Restaurant",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.facebook.com/MomoJapaneseRestaurant/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.3196,
                     -104.61723
                 ]
             },
-            "properties ": {
-                "id ": "C39",
-                "name ": "Cactus Flower",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://cactusflowerrestaurant.com/"
+            "properties": {
+                "id": "C39",
+                "name": "Cactus Flower",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://cactusflowerrestaurant.com/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.23897,
                     -104.61462
                 ]
             },
-            "properties ": {
-                "id ": "C40",
-                "name ": "Mill Stop Cafe",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.facebook.com/Mill-Stop-321963661315040/?rf=108134245895340"
+            "properties": {
+                "id": "C40",
+                "name": "Mill Stop Cafe",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.facebook.com/Mill-Stop-321963661315040/?rf=108134245895340"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.26278,
                     -104.61535
                 ]
             },
-            "properties ": {
-                "id ": "C41",
-                "name ": "Papa Jose's Union Ave Cafe",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.facebook.com/Papajoses/"
+            "properties": {
+                "id": "C41",
+                "name": "Papa Jose's Union Ave Cafe",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.facebook.com/Papajoses/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.30794,
                     -104.62347
                 ]
             },
-            "properties ": {
-                "id ": "C42",
-                "name ": "Manhattan's Pizza Parlor",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.facebook.com/Manhattans-Pizza-Parlor-and-More-121400501218936/"
+            "properties": {
+                "id": "C42",
+                "name": "Manhattan's Pizza Parlor",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.facebook.com/Manhattans-Pizza-Parlor-and-More-121400501218936/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.26771,
                     -104.62515
                 ]
             },
-            "properties ": {
-                "id ": "C43",
-                "name ": "Tea Palace II",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": ""
+            "properties": {
+                "id": "C43",
+                "name": "Tea Palace II",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": ""
             }
         }
         // ,
         // {
-        //     "type": "Feature",
-        //     "geometry": {
-        //         "type": "Point",
-        //         "coordinates": [
+        //    "type":"Feature",
+        //    "geometry": {
+        //        "type":"Point",
+        //        "coordinates": [
 
         //         ]
         //     },
-        //     "properties": {
-        //         "id": "C0",
-        //         "name":"templateName",
-        //         "popupContent":"templateContent",
-        //         "imageUrl":"img/templateImage.png",
-        //         "linkUrl":"templateUrl"
+        //    "properties": {
+        //        "id":"C0",
+        //        "name":"templateName",
+        //        "popupContent":"templateContent",
+        //        "imageUrl":"img/templateImage.png",
+        //        "linkUrl":"templateUrl"
         //     }
         // }
     ]
@@ -1230,433 +1230,433 @@ var attractionData = {
     "type": "FeatureCollection",
     "features": [
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.31341,
                     -104.61323
                 ]
             },
-            "properties ": {
-                "id ": "C44",
-                "name ": "Eagleridge Shopping Center",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": ""
+            "properties": {
+                "id": "C44",
+                "name": "Eagleridge Shopping Center",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": ""
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.30338,
                     -104.60864
                 ]
             },
-            "properties ": {
-                "id ": "C45",
-                "name ": "Pueblo Mall",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.pueblomall.com/"
+            "properties": {
+                "id": "C45",
+                "name": "Pueblo Mall",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.pueblomall.com/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.26496,
                     -104.6116
                 ]
             },
-            "properties ": {
-                "id ": "C30",
-                "name ": "Riverwalk",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://puebloriverwalk.org/"
+            "properties": {
+                "id": "C30",
+                "name": "Riverwalk",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://puebloriverwalk.org/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.06141,
                     -105.09429
                 ]
             },
-            "properties ": {
-                "id ": "C31",
-                "name ": "Bishop's Castle",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.bishopcastle.org/"
+            "properties": {
+                "id": "C31",
+                "name": "Bishop's Castle",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.bishopcastle.org/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.28104,
                     -104.80024
                 ]
             },
-            "properties ": {
-                "id ": "C32",
-                "name ": "Lake Pueblo",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://cpw.state.co.us/placestogo/parks/LakePueblo"
+            "properties": {
+                "id": "C32",
+                "name": "Lake Pueblo",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://cpw.state.co.us/placestogo/parks/LakePueblo"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.31142,
                     -104.61177
                 ]
             },
-            "properties ": {
-                "id ": "C5",
-                "name ": "Cinemark Tinseltown - Pueblo",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.cinemark.com/colorado/cinemark-tinseltown"
+            "properties": {
+                "id": "C5",
+                "name": "Cinemark Tinseltown - Pueblo",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.cinemark.com/colorado/cinemark-tinseltown"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.24324,
                     -104.56439
                 ]
             },
-            "properties ": {
-                "id ": "C6",
-                "name ": "Mesa Drive In",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.mesadrive-in.com/"
+            "properties": {
+                "id": "C6",
+                "name": "Mesa Drive In",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.mesadrive-in.com/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.24487,
                     -104.64577
                 ]
             },
-            "properties ": {
-                "id ": "C7",
-                "name ": "Big Daddy's Sunset Bowl",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.facebook.com/BigDaddysSunsetBowl/"
+            "properties": {
+                "id": "C7",
+                "name": "Big Daddy's Sunset Bowl",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.facebook.com/BigDaddysSunsetBowl/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.27225,
                     -104.62087
                 ]
             },
-            "properties ": {
-                "id ": "C8",
-                "name ": "Bowlero Lanes",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.facebook.com/pages/Bowlero-Lanes/321515781221652"
+            "properties": {
+                "id": "C8",
+                "name": "Bowlero Lanes",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.facebook.com/pages/Bowlero-Lanes/321515781221652"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.27311,
                     -104.59905
                 ]
             },
-            "properties ": {
-                "id ": "C9",
-                "name ": "El Centro del Quinto Sol Skate Park",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.pueblo.us/334/El-Centro"
+            "properties": {
+                "id": "C9",
+                "name": "El Centro del Quinto Sol Skate Park",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.pueblo.us/334/El-Centro"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.2541,
                     -104.66211
                 ]
             },
-            "properties ": {
-                "id ": "C10",
-                "name ": "Epic Entertainment",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.epicentertainmentco.com/"
+            "properties": {
+                "id": "C10",
+                "name": "Epic Entertainment",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.epicentertainmentco.com/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.2631,
                     -104.65707
                 ]
             },
-            "properties ": {
-                "id ": "C11",
-                "name ": "Pueblo City Park",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.pueblo.us/facilities/facility/details/9"
+            "properties": {
+                "id": "C11",
+                "name": "Pueblo City Park",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.pueblo.us/facilities/facility/details/9"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.28269,
                     -104.60849
                 ]
             },
-            "properties ": {
-                "id ": "C12",
-                "name ": "Mineral Palace Park",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.pueblo.us/Facilities/Facility/Details/Mineral-Palace-Park-36"
+            "properties": {
+                "id": "C12",
+                "name": "Mineral Palace Park",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.pueblo.us/Facilities/Facility/Details/Mineral-Palace-Park-36"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.21804,
                     -104.62912
                 ]
             },
-            "properties ": {
-                "id ": "C13",
-                "name ": "Pueblo Family Fun Center",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.pueblo4fun.com/"
+            "properties": {
+                "id": "C13",
+                "name": "Pueblo Family Fun Center",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.pueblo4fun.com/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.26827,
                     -104.61088
                 ]
             },
-            "properties ": {
-                "id ": "C14",
-                "name ": "Pueblo Ice Arena",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.pueblo.us/328/Pueblo-Ice-Arena"
+            "properties": {
+                "id": "C14",
+                "name": "Pueblo Ice Arena",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.pueblo.us/328/Pueblo-Ice-Arena"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.26131,
                     -104.65569
                 ]
             },
-            "properties ": {
-                "id ": "C15",
-                "name ": "Pueblo Zoo",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.pueblozoo.org/"
+            "properties": {
+                "id": "C15",
+                "name": "Pueblo Zoo",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.pueblozoo.org/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.28924,
                     -104.60014
                 ]
             },
-            "properties ": {
-                "id ": "C16",
-                "name ": "Skate City",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.skatecitypueblo.com/"
+            "properties": {
+                "id": "C16",
+                "name": "Skate City",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.skatecitypueblo.com/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.30288,
                     -104.60866
                 ]
             },
-            "properties ": {
-                "id ": "C17",
-                "name ": "Steel City Put Glow Golf",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.facebook.com/Steelcityputt?fref=ts"
+            "properties": {
+                "id": "C17",
+                "name": "Steel City Put Glow Golf",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.facebook.com/Steelcityputt?fref=ts"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.28143,
                     -104.4963
                 ]
             },
-            "properties ": {
-                "id ": "C18",
-                "name ": "Pueblo Weisbrod Aircraft Museum",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.pwam.org/"
+            "properties": {
+                "id": "C18",
+                "name": "Pueblo Weisbrod Aircraft Museum",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.pwam.org/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.26735,
                     -104.6112
                 ]
             },
-            "properties ": {
-                "id ": "C19",
-                "name ": "El Pueblo History Museum",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://www.historycolorado.org/museums/el-pueblo-history-museum"
+            "properties": {
+                "id": "C19",
+                "name": "El Pueblo History Museum",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://www.historycolorado.org/museums/el-pueblo-history-museum"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.26961,
                     -104.67687
                 ]
             },
-            "properties ": {
-                "id ": "C20",
-                "name ": "Nature and Raptor Center of Colorado",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://natureandraptor.org/"
+            "properties": {
+                "id": "C20",
+                "name": "Nature and Raptor Center of Colorado",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://natureandraptor.org/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.26571,
                     -104.61118
                 ]
             },
-            "properties ": {
-                "id ": "C21",
-                "name ": "Memorial Hall",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "http://pueblomemorialhall.com/"
+            "properties": {
+                "id": "C21",
+                "name": "Memorial Hall",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "http://pueblomemorialhall.com/"
             }
         }
         ,
         {
-            " type ": "Feature",
-            "geometry ": {
-                "type ": "Point ",
-                "coordinates ": [
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     38.26917,
                     -104.60627
                 ]
             },
-            "properties ": {
-                "id ": "C22",
-                "name ": "Sangre de Cristo Arts and Conference Center",
-                "popupContent ": "template Content",
-                "imageUrl ": "img/template.png",
-                "linkUrl ": "https://www.sdc-arts.org/"
+            "properties": {
+                "id": "C22",
+                "name": "Sangre de Cristo Arts and Conference Center",
+                "popupContent": "template Content",
+                "imageUrl": "img/template.png",
+                "linkUrl": "https://www.sdc-arts.org/"
             }
         }
         //,
         // {
-        //     "type": "Feature",
-        //     "geometry": {
-        //         "type": "Point",
-        //         "coordinates": [
+        //    "type":"Feature",
+        //    "geometry": {
+        //        "type":"Point",
+        //        "coordinates": [
 
         //         ]
         //     },
-        //     "properties": {
-        //         "id": "C0",
-        //         "name":"templateName",
-        //         "popupContent":"templateContent",
-        //         "imageUrl":"img/templateImage.png",
-        //         "linkUrl":"templateUrl"
+        //    "properties": {
+        //        "id":"C0",
+        //        "name":"templateName",
+        //        "popupContent":"templateContent",
+        //        "imageUrl":"img/templateImage.png",
+        //        "linkUrl":"templateUrl"
         //     }
         // }
     ]
