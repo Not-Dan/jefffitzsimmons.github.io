@@ -49,7 +49,7 @@ var adminData = {
                 "id": "B24",
                 "name": "Massari Arena (PE)",
                 "popupContent": "Renovated in 2008, this world-class indoor sports arena features a swimming pool, basketball and racquetball courts, an athletic training room, as well as athletic administrative offices and the CSU-Pueblo Athletic Hall of Honor. Come check out the challenging climbing wall to see if you can reach the top!",
-                "imageUrl": "img/MassariArena.jpg",
+                "imageUrl": "img/Massari-Arena.jpg",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/massari"
             }
         },
@@ -117,7 +117,7 @@ var adminData = {
                 "id": "B4",
                 "name": "Library and Academic Resource Center (LARC)",
                 "popupContent": "Following a $24 million renovation, the University Library reopened in Spring of 2011, with a 22,000-square-foot addition as well as a complete replacementof the mechanical and electrical systems, significant improvements in technology, and a more inviting environment for students. The building was renovated and constructed to the highest possible standards for efficiency and sustainability. The breezeway beneath the library wing was enclosed and now houses a variety of student services from the First-Year Program and Career Center to the President's Leadership Program.",
-                "imageUrl": "img/LibraryAcademicResourceCenter.png",
+                "imageUrl": "img/Library.jpg",
                 "linkUrl": "http://library.csupueblo.edu/"
             }
         },
@@ -236,7 +236,7 @@ var adminData = {
                 "id": "B11",
                 "name": "Student Recreation Center (SRC)",
                 "popupContent": "After opening its door in Fall 2008, the new 43,000-square-foot Student Recreation Center gives students access to basketball courts, a state-of-the-art weight room, indoor running track, intramural competitions, classes like yoga, kickboxing, and step aerobics, and Outdoor Pursuits programming and equipment rental. Membership is totally free to CSU-Pueblo students!",
-                "imageUrl": "img/StudentRecreationCenter.png",
+                "imageUrl": "img/rec-center.jpg",
                 "linkUrl": "https://www.csupueblo.edu/student-recreation/index.html"
             }
         },
@@ -365,7 +365,7 @@ var fieldData = {
                 "id": "B26",
                 "name": "University Fountain Plaza",
                 "popupContent": "templateContent",
-                "imageUrl": "img/UniversityFountainPlaza.png",
+                "imageUrl": "img/fountain.jpg",
                 "linkUrl": "templateUrl"
             }
         }
@@ -742,7 +742,7 @@ var resData = {
                 "id": "B18",
                 "name": "Culebra Hall (CLBR)",
                 "popupContent": "The nearly 80,000 square-feet Culebra Hall has  four floors of student rooms, totaling 235 beds, a commons/lounge area with adjacent small group study rooms, laundry, mailroom and a late-night food venue offering coffee, drinks, soups, snacks, sandwiches, and pizza.",
-                "imageUrl": "img/CulebraHall.png",
+                "imageUrl": "img/culebraHall.jpg",
                 "linkUrl": "https://www.csupueblo.edu/residence-life-and-housing/index.html"
             }
         },
