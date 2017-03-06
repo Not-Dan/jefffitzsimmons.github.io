@@ -128,6 +128,7 @@ $(document).ready(function() {
 
 //Resturaunts
             // Map markers for buildings
+            // commented out the img and desc for the non-csu items
     var geojsonResturaunts;
     var resturauntMarkerList = document.getElementById('resturaunt-marker-list');
     geojsonResturaunts = L.geoJson(resturauntData, {
@@ -158,6 +159,7 @@ $(document).ready(function() {
 
 //Hotels
             // Map markers for buildings
+            // commented out the img and desc for the non-csu items
     var geojsonHotel;
     var hotelMarkerList = document.getElementById('hotel-marker-list');
     geojsonHotel = L.geoJson(hotelData, {
@@ -188,6 +190,7 @@ $(document).ready(function() {
 
 //Resturaunts
             // Map markers for buildings
+            // commented out the img and desc for the non-csu items
     var geojsonAttraction;
     var attractionMarkerList = document.getElementById('attraction-marker-list');
     geojsonAttraction = L.geoJson(attractionData, {
