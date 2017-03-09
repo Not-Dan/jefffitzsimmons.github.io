@@ -1556,14 +1556,6 @@ var attractionData = {
         {
             "type": "Feature",
             "geometry": {
-                var redIcon = new L.Icon({
-                    iconUrl: 'img/markers/orange-csup-icon.png',
-                    shadowUrl: 'img/markers/marker-shadow.png',
-                    iconSize: [25, 41],
-                    iconAnchor: [12, 41],
-                    popupAnchor: [1, -34],
-                    shadowSize: [41, 41]
-                });
                 "type": "Point",
                 "coordinates": [
                     38.30288,
