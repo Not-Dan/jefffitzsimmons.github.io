@@ -72,7 +72,7 @@ $(document).ready(function() {
     // Read the JSON array and add information to variables
     geojsonRes = L.geoJson(resData, {
         onEachFeature: function(feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: red-CSUP}),
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: redCSUP}),
             image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
             buildingName = '<h4>' + feature.properties.name + '</h4>',
             buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
