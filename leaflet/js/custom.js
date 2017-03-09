@@ -72,7 +72,7 @@ $(document).ready(function() {
     // Read the JSON array and add information to variables
     geojsonRes = L.geoJson(resData, {
         onEachFeature: function(feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: redCSUP}),
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: redIcon}),
             image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
             buildingName = '<h4>' + feature.properties.name + '</h4>',
             buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
@@ -102,7 +102,7 @@ $(document).ready(function() {
     var fieldMarkerList = document.getElementById('field-marker-list');
     geojsonField = L.geoJson(fieldData, {
         onEachFeature: function(feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: greenCSUP}),
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: greenIcon}),
             image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
             buildingName = '<h4>' + feature.properties.name + '</h4>',
             buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
@@ -133,7 +133,7 @@ $(document).ready(function() {
     var resturauntMarkerList = document.getElementById('resturaunt-marker-list');
     geojsonResturaunts = L.geoJson(resturauntData, {
         onEachFeature: function(feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: redIcon}),
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: yellowIcon}),
             image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
             buildingName = '<h4>' + feature.properties.name + '</h4>',
             buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
@@ -164,7 +164,7 @@ $(document).ready(function() {
     var hotelMarkerList = document.getElementById('hotel-marker-list');
     geojsonHotel = L.geoJson(hotelData, {
         onEachFeature: function(feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: orangeIcon}),
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: violetIcon}),
             image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
             buildingName = '<h4>' + feature.properties.name + '</h4>',
             buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
@@ -195,7 +195,7 @@ $(document).ready(function() {
     var attractionMarkerList = document.getElementById('attraction-marker-list');
     geojsonAttraction = L.geoJson(attractionData, {
         onEachFeature: function(feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: blueIcon}),
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: greyIcon}),
             image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
             buildingName = '<h4>' + feature.properties.name + '</h4>',
             buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
