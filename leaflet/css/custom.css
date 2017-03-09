@@ -10,6 +10,10 @@ html, body, #mainMap {
     height: 100%;
 }
 
+#marker-list {
+    max-width: 400px;
+}
+
 #mapMarkers {
     max-width: 250px;
 }
