@@ -308,6 +308,24 @@ var adminData = {
                 "linkUrl": "https://www.csupueblo.edu/auxiliary-services/childcare.html"
             }
         }
+        ,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30744,
+                    -104.57026
+                ]
+            },
+            "properties": {
+                "id": "B42",
+                "name": "Thunder Village",
+                "popupContent": "The Thunder Village Complex is a 10,000 square foot building that was built by Arc Valley Construction and designed by Gary Anzuini. Thunder Village is planned to be filled with vendors and stores where students from campus will spend money. The first tennant will be Thunder Zone Pizza and it will open in June of 2017.",
+                "imageUrl": "img/thunder-village-complex.jpg",
+                "linkUrl": "https://www.csupueblo.edu/news/2017/02-03-thunder-village-groundbreaking.html"
+            }
+        }
     ]
 };
 
@@ -553,8 +571,8 @@ var fieldData = {
             },
             "properties": {
                 "id": "B36",
-                "name": "Art & Lorraine Gonzalez Soccer/Lacrosse Complex",
-                "popupContent": "templateContent",
+                "name": "Art and Lorraine Gonzales Stadium",
+                "popupContent": "The existing soccer complex has been enhanced through private dollars with a new synthetic turf field, 550-seat grandstand, public restrooms, a concession area, press box, lobby, locker rooms, training room, and offices.",
                 "imageUrl": "img/templateImage.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/soccer-lax"
             }
@@ -1538,6 +1556,14 @@ var attractionData = {
         {
             "type": "Feature",
             "geometry": {
+                var redIcon = new L.Icon({
+                    iconUrl: 'img/markers/orange-csup-icon.png',
+                    shadowUrl: 'img/markers/marker-shadow.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowSize: [41, 41]
+                });
                 "type": "Point",
                 "coordinates": [
                     38.30288,
