@@ -1,8 +1,8 @@
 var orangeCSUP = new L.Icon({
 	iconUrl: 'img/markers/orange-csup-icon.png',
 	shadowUrl: 'img/markers/marker-shadow.png',
-	iconSize: [50, 82],
-	iconAnchor: [25, 82],
+	iconSize: [25, 41],
+	iconAnchor: [12, 41],
 	popupAnchor: [1, -34],
 	shadowSize: [41, 41]
 });
@@ -10,8 +10,8 @@ var orangeCSUP = new L.Icon({
 var redCSUP = new L.Icon({
 	iconUrl: 'img/markers/red-csup-icon.png',
 	shadowUrl: 'img/markers/marker-shadow.png',
-	iconSize: [50, 82],
-	iconAnchor: [25, 82],
+	iconSize: [25, 41],
+	iconAnchor: [12, 41],
 	popupAnchor: [1, -34],
 	shadowSize: [41, 41]
 });
@@ -19,8 +19,8 @@ var redCSUP = new L.Icon({
 var blueCSUP = new L.Icon({
 	iconUrl: 'img/markers/blue-csup-icon.png',
 	shadowUrl: 'img/markers/marker-shadow.png',
-	iconSize: [50, 82],
-	iconAnchor: [25, 82],
+	iconSize: [25, 41],
+	iconAnchor: [12, 41],
 	popupAnchor: [1, -34],
 	shadowSize: [41, 41]
 });
@@ -28,8 +28,8 @@ var blueCSUP = new L.Icon({
 var greenCSUP = new L.Icon({
 	iconUrl: 'img/markers/green-csup-icon.png',
 	shadowUrl: 'img/markers/marker-shadow.png',
-	iconSize: [50, 82],
-	iconAnchor: [25, 82],
+	iconSize: [25, 41],
+	iconAnchor: [12, 41],
 	popupAnchor: [1, -34],
 	shadowSize: [41, 41]
 });
