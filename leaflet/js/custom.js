@@ -27,11 +27,15 @@ $(document).ready(function() {
         center: [38.30786, -104.57769],
         zoom: 17,
         maxZoom: 18,
-        minZoom: 16,
+        minZoom: 14,
         fullscreenControl: true,
         scrollWheelZoom: false,
+        control: home,
         layers: [streets, adminBuildings, residenceBuildings, sportsFields, resturaunts, attractions, hotels]
-    });
+    }
+    
+    );
+    
 
 //Admin and Academic Buildings
     // Map markers for buildings
@@ -41,7 +45,7 @@ $(document).ready(function() {
     // Read the JSON array and add information to variables
     geojson = L.geoJson(adminData, {
         onEachFeature: function(feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates, {icon: blueIcon}),
+            var buildingMarker = L.marker(feature.geometry.coordinates, {icon: blueCSUP}),
             image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
             buildingName = '<h4>' + feature.properties.name + '</h4>',
             buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
@@ -72,7 +76,7 @@ $(document).ready(function() {
     // Read the JSON array and add information to variables
     geojsonRes = L.geoJson(resData, {
         onEachFeature: function(feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: redIcon}),
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: orangeCSUP}),
             image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
             buildingName = '<h4>' + feature.properties.name + '</h4>',
             buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
@@ -102,7 +106,7 @@ $(document).ready(function() {
     var fieldMarkerList = document.getElementById('field-marker-list');
     geojsonField = L.geoJson(fieldData, {
         onEachFeature: function(feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: greenIcon}),
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: greenCSUP}),
             image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
             buildingName = '<h4>' + feature.properties.name + '</h4>',
             buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
@@ -133,7 +137,7 @@ $(document).ready(function() {
     var resturauntMarkerList = document.getElementById('resturaunt-marker-list');
     geojsonResturaunts = L.geoJson(resturauntData, {
         onEachFeature: function(feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: yellowIcon}),
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: redIcon}),
             image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
             buildingName = '<h4>' + feature.properties.name + '</h4>',
             buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
@@ -164,7 +168,7 @@ $(document).ready(function() {
     var hotelMarkerList = document.getElementById('hotel-marker-list');
     geojsonHotel = L.geoJson(hotelData, {
         onEachFeature: function(feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: violetIcon}),
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: blueIcon}),
             image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
             buildingName = '<h4>' + feature.properties.name + '</h4>',
             buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
@@ -195,7 +199,7 @@ $(document).ready(function() {
     var attractionMarkerList = document.getElementById('attraction-marker-list');
     geojsonAttraction = L.geoJson(attractionData, {
         onEachFeature: function(feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: greyIcon}),
+            var buildingMarker = L.marker(feature.geometry.coordinates,{icon: greenIcon}),
             image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
             buildingName = '<h4>' + feature.properties.name + '</h4>',
             buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
@@ -238,21 +242,44 @@ var overlayMaps = {
 // Add layer and marker UI controls to map
 L.control.layers(baseLayers, overlayMaps).addTo(map);
 
+//uncomment this to get a location popup upon a click.
+// // Initial function set to determine lat and lng of a specific point, use for setting new building markers/polygons //
+// //
+//  var popup = L.popup();
 
-// Initial function set to determine lat and lng of a specific point, use for setting new building markers/polygons //
+//  function onMapClick(e) {
+//      popup
+//      .setLatLng(e.latlng)
+//      .setContent("You clicked the map at " + e.latlng.toString())
+//      .openOn(map);
+//  }
+
+//  map.on('click', onMapClick);
 //
- var popup = L.popup();
-
- function onMapClick(e) {
-     popup
-     .setLatLng(e.latlng)
-     .setContent("You clicked the map at " + e.latlng.toString())
-     .openOn(map);
- }
-
- map.on('click', onMapClick);
-//
 // Initial function set to determine lat and lng of a specific point, use for setting new building markers/polygons //
 
+//home button
+var home =  L.Control.extend({
 
+  options: {
+    position: 'topright'
+  },
+
+  onAdd: function (map) {
+    var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+
+    container.style.backgroundColor = 'white';     
+    container.style.backgroundImage = "url(img/btn-home.png)";
+    container.style.backgroundSize = '30px 30px';
+    container.style.width = '30px';
+    container.style.height = '30px';
+
+    container.onclick = function(){
+      map.setView(map.options.center, map.options.zoom);
+    }
+
+    return container;
+  }
+});
+map.addControl(new home());
 });
