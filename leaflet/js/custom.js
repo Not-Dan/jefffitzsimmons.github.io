@@ -1,7 +1,10 @@
 // Map components and initialization for use on web page
 $(document).ready(function () {
-    //sort function
+    //sort function, don'/'t touch
     function compareTo(x, y) {
+        //precede = -1
+        //equals = 0
+        //succeed =1
         return ((x === y) ? 0 : ((x > y) ? 1 : -1));
     }
     function bubbleSort(arr){
@@ -51,7 +54,7 @@ $(document).ready(function () {
     );
 
 
-    //bubble sort
+    //bubble sort, if there is more data that needs to be added just add bubbleSort(dataSetName);
     bubbleSort(adminData);
     bubbleSort(resData);
     bubbleSort(fieldData);

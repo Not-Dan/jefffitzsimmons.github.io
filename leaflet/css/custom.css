@@ -10,7 +10,9 @@ html, body, #mainMap {
     height: 100%;
 }
 
-
+.list-group{
+    width: 400px;
+}
 #mapMarkers {
     max-width: 250px;
 }
