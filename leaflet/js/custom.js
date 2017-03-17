@@ -86,6 +86,7 @@ $(document).ready(function () {
             item.className = "list-group-item";
             item.innerHTML = feature.properties.name;
             item.onclick = function () {
+                map.closePopup();
                 map.setView(feature.geometry.coordinates);
                 buildingMarker.openPopup();
                 $('html, body').animate({
@@ -117,6 +118,7 @@ $(document).ready(function () {
             item.className = "list-group-item";
             item.innerHTML = feature.properties.name;
             item.onclick = function () {
+                map.closePopup();
                 map.setView(feature.geometry.coordinates);
                 buildingMarker.openPopup();
                 $('html, body').animate({
@@ -147,6 +149,7 @@ $(document).ready(function () {
             item.className = "list-group-item";
             item.innerHTML = feature.properties.name;
             item.onclick = function () {
+                map.closePopup();
                 map.setView(feature.geometry.coordinates);
                 buildingMarker.openPopup();
                 $('html, body').animate({
@@ -178,6 +181,7 @@ $(document).ready(function () {
             item.className = "list-group-item";
             item.innerHTML = feature.properties.name;
             item.onclick = function () {
+                map.closePopup();
                 map.setView(feature.geometry.coordinates);
                 buildingMarker.openPopup();
                 $('html, body').animate({
@@ -209,6 +213,7 @@ $(document).ready(function () {
             item.className = "list-group-item";
             item.innerHTML = feature.properties.name;
             item.onclick = function () {
+                map.closePopup();
                 map.setView(feature.geometry.coordinates);
                 buildingMarker.openPopup();
                 $('html, body').animate({
@@ -240,6 +245,7 @@ $(document).ready(function () {
             item.className = "list-group-item";
             item.innerHTML = feature.properties.name;
             item.onclick = function () {
+                map.closePopup();
                 map.setView(feature.geometry.coordinates);
                 buildingMarker.openPopup();
                 $('html, body').animate({
